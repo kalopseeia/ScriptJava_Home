@@ -1,0 +1,6 @@
+#/bin/sh
+
+setx JAVA_JDK_HOME "C:\Program Files\Eclipse Adoptium\jdk-11.0.13.8-hotspot;C:\Program Files\Eclipse Adoptium\jdk-11.0.13.8-hotspot\bin"
+echo Java 11 activated as user default.
+
+powershell.exe -ExecutionPolicy Bypass -File "C:\Program Files\Eclipse Adoptium\Scripts\javaPath.ps1"
